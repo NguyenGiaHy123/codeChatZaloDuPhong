@@ -1,0 +1,102 @@
+.contentGroupChat{
+    min-height: 95vh;
+    
+}
+.chatBox{
+    margin: 0px;
+   display: grid;
+    grid-template-columns: 1fr 400px;
+}
+.no-outline:focus {
+    outline: none;
+  }
+
+  
+.content_Scroll::-webkit-scrollbar-track{
+    display: none;
+}
+.hoverEffect{
+  width: 25px;
+  height: 25px;
+}
+.hoverEffect:hover {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.content_Scroll::-webkit-scrollbar{
+    display: none;
+    width: 8px;
+}
+.content_Scroll::-webkit-scrollbar{
+   display: block;    
+}
+.content_Scroll::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background-image: linear-gradient(-45deg,rgba(155, 155, 155, 0.823), rgb(213, 212, 212));
+}
+ 
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+  .dothovergroup{
+    position: relative;
+    
+
+  }
+  .dothover{
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: none;
+    background-color: white;
+    border-radius: 20px;
+    
+  }
+  .dothovergroup:hover .dothover{
+    display: block;
+  }
+
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .inputparant{
+    position: relative;
+    width: 100%;
+
+    
+  }
+  .file{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 18px;
+     
+
+
+  
+  
+  }
+
+  .flex-container {
+    display: flex;
+
+    margin-left: -2px; /* Khoảng cách âm để các items có thể "đè" lên nhau */
+    margin-top: -2px;
+  }
+  
+  .flex-item {
+    padding-left: 2px; /* Padding bù lại khoảng cách âm */
+    padding-top: 2px;
+  }
+  
